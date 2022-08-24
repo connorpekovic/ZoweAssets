@@ -699,20 +699,20 @@ ZWES1606W Failed to get JWK - failed to send HTTP request, retry in 30 seconds
    |  +> SSL_RSA_WITH_AES_256_GCM_SHA384 
    |  +> TLS_EMPTY_RENEGOTIATION_INFO_SCSV 
    +> Disabled size=20 
-      +> SSL_DHE_DSS_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_DSS_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_DSS_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_DSS_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
       +> TLS_AES_128_GCM_SHA256 - JVM:disabled 
       +> TLS_AES_256_GCM_SHA384 - JVM:disabled 
       +> TLS_CHACHA20_POLY1305_SHA256 - JVM:disabled 
@@ -720,7 +720,7 @@ ZWES1606W Failed to get JWK - failed to send HTTP request, retry in 30 seconds
       +> TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 - JVM:disabled 
       +> TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 - JVM:disabled 
 key: +- bean, += managed, +~ unmanaged, +? auto, +: iterable, +" array, +@ map, +> undefined 
-2022-08-23 16:36:41.016 <ZWEAGW1:main:50529351> ZWESVUSR INFO  (n.s.e.p.s.f.AnnotationSizeOfFilter) Using regular expression provided through VM argument net.sf.ehcache.pool.sizeof.ignore.pattern for IgnoreSizeOf annotation : ª.*cache\..*IgnoreSizeOf$
+2022-08-23 16:36:41.016 <ZWEAGW1:main:50529351> ZWESVUSR INFO  (n.s.e.p.s.f.AnnotationSizeOfFilter) Using regular expression provided through VM argument net.sf.ehcache.pool.sizeof.ignore.pattern for IgnoreSizeOf annotation : Âª.*cache\..*IgnoreSizeOf$
 2022-08-23 16:36:41.112 <ZWEAGW1:main:50529351> ZWESVUSR INFO  (n.s.e.p.s.JvmInformation) Detected JVM data model settings of: IBM 64-Bit JVM with Compressed References 
 2022-08-23 16:36:41.117 <ZWEAGW1:main:50529351> ZWESVUSR INFO  (n.s.e.p.s.AgentLoader) Failed to attach to VM and load the agent: class com.sun.tools.attach.AttachNotSupportedException: target 50529351 not found 
 2022-08-23 16:36:41.134 <ZWEAGW1:main:50529351> ZWESVUSR INFO  (n.s.e.p.i.DefaultSizeOfEngine) using Unsafe sizeof engine 
@@ -771,20 +771,20 @@ key: +- bean, += managed, +~ unmanaged, +? auto, +: iterable, +" array, +@ map, 
    |  +> SSL_RSA_WITH_AES_256_GCM_SHA384 
    |  +> TLS_EMPTY_RENEGOTIATION_INFO_SCSV 
    +> Disabled size=20 
-      +> SSL_DHE_DSS_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_DSS_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_DSS_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_DSS_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
       +> TLS_AES_128_GCM_SHA256 - JVM:disabled 
       +> TLS_AES_256_GCM_SHA384 - JVM:disabled 
       +> TLS_CHACHA20_POLY1305_SHA256 - JVM:disabled 
@@ -862,20 +862,20 @@ ZWES1606W Failed to get JWK - failed to send HTTP request, retry in 30 seconds
    |  +> SSL_RSA_WITH_AES_256_GCM_SHA384 
    |  +> TLS_EMPTY_RENEGOTIATION_INFO_SCSV 
    +> Disabled size=20 
-      +> SSL_DHE_DSS_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_DSS_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_DHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_ECDH_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
-      +> SSL_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'ª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_DSS_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_DSS_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_DHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDHE_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_ECDSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_ECDH_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_RSA_WITH_AES_128_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
+      +> SSL_RSA_WITH_AES_256_CBC_SHA - ConfigExcluded:'Âª.*_(MD5|SHA|SHA1)$' 
       +> TLS_AES_128_GCM_SHA256 - JVM:disabled 
       +> TLS_AES_256_GCM_SHA384 - JVM:disabled 
       +> TLS_CHACHA20_POLY1305_SHA256 - JVM:disabled 
@@ -2479,9 +2479,9 @@ DEBUG (o.a.h.headers) http-outgoing-0 >> Accept-Encoding: gzip,deflate
 Y0xba"Y0xb8"Y0xb3"Y0x12"Y0x12"4Z9Y0xa0"Y0xb1"Y0xd3">XY0xee"Y0x9b"Y0xb7"Y0xd0"Y0x99"Y0x92"Y0xd8"Y0xc1"Y0x6"Y0xb9"Y0xa7"rY0x87"\Y0xb7"Y0x92";vY0xcb"Y0x1d"Y0xdb"Y0xc"Y0x11"Y0x4"2.Y0x81"lWY0x94"Y0xd9"Y0xe4"Y0xf7"Y0xc"#yY0xaa"%?Y0xec"Y0x95"KY0x86"MY0xa1""Y
 2022-08-23 16:37:41.488 <ZWEAAC1:DiscoveryClient-CacheRefreshExecutor-0:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-0 << "(Y0xce"Y0xc4"LY0xa5"Y0x14"Y0xb5"Y0x9f"Y0xee"Y0x11"TY0xe4"Y0xe"3U*VY0xb8"XY0x1e"Y0xa8"Y0xc4"BY0xc6"tY0xb9"8Y0x4"TxSmY0x
 2022-08-23 16:37:41.488 <ZWEAAC1:DiscoveryClient-CacheRefreshExecutor-0:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-0 << "Y0x94":|Y0xd4"Y0xac"H4Y0x11"Y0xd6"Y0xa5"Y0x86"$uY0x5"F.Y0xba"Y0xa6"gY0x11"Y0xab"fY0xe3"Y0x0"Y0x9b"Y0x10"\Y0x96"Y0x5"Y0
-2022-08-23 16:37:41.489 <ZWEAAC1:DiscoveryClient-CacheRefreshExecutor-0:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-0 << "AY0xd7"Y0xaa"Y0x9d"Y0xf2"n#IY0xfd"10Y0x15"Y0xc5"Y0x8b"G,Y0x1e"-'Y0x2"LªY0xb1"Y0xc8"Y0xd0"Y0x8d"Y0xc4"Y0x9"UC5Y0xaa"Y0x
+2022-08-23 16:37:41.489 <ZWEAAC1:DiscoveryClient-CacheRefreshExecutor-0:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-0 << "AY0xd7"Y0xaa"Y0x9d"Y0xf2"n#IY0xfd"10Y0x15"Y0xc5"Y0x8b"G,Y0x1e"-'Y0x2"LÂªY0xb1"Y0xc8"Y0xd0"Y0x8d"Y0xc4"Y0x9"UC5Y0xaa"Y0x
 x8f"K@yvY0xc0"`6Y0xd9"&sY0xba"Y0xf8"Y0xc4"(Y0x17"Y0xcb";Y0xf1"Y0x9"Y0x8"Y0x95"fY0x8c"Y0xa2"QY0x1a"Y0xc2"'Y0xf1"G7KY0x8d"Y0xda"Y0xa1"#Y0x8b"Y0x87"wY0xfa"XfY0x8"ZY0xcc"Y0xc9"slY0xf2"Y0xc1"LEY0x1b"Y0x97"JT3NY0xd7"G3Y0xc9"Y0x9d"H%Y0xbd"Y0x13"QiDY0xa5"Y0x1
-Y0x96"Y0xf7"Y0xea"tY0xca"Y0xb9"Y0x85"$Y0xe6"BY0xbf"<~Y0xe5"Y0xa5"Y0xf2"&Y0x95"Y0xd3"CY0xb2"TY0xca"fY0x9"2$#Y0x9a"Y0x89"Y0xa4"<Y0xc8"Y0x12"Y0x90"9Y0xe6"uIY0xff"iY0x86"Y0x87"RFª}Y0x93"Y0xc4"QY0xcd"Y0x89"6Y0xb6"Y0x19"Y0xa6"LY0xdc"eY0xfd"Y0xab"CY0x1e"Y0x
+Y0x96"Y0xf7"Y0xea"tY0xca"Y0xb9"Y0x85"$Y0xe6"BY0xbf"<~Y0xe5"Y0xa5"Y0xf2"&Y0x95"Y0xd3"CY0xb2"TY0xca"fY0x9"2$#Y0x9a"Y0x89"Y0xa4"<Y0xc8"Y0x12"Y0x90"9Y0xe6"uIY0xff"iY0x86"Y0x87"RFÂª}Y0x93"Y0xc4"QY0xcd"Y0x89"6Y0xb6"Y0x19"Y0xa6"LY0xdc"eY0xfd"Y0xab"CY0x1e"Y0x
 2022-08-23 16:37:41.489 <ZWEAAC1:DiscoveryClient-CacheRefreshExecutor-0:33752189> ZWESVUSR DEBUG (o.a.h.headers) http-outgoing-0 << HTTP/1.1 200 
 2022-08-23 16:37:41.489 <ZWEAAC1:DiscoveryClient-CacheRefreshExecutor-0:33752189> ZWESVUSR DEBUG (o.a.h.headers) http-outgoing-0 << Content-Encoding: gzip 
 2022-08-23 16:37:41.489 <ZWEAAC1:DiscoveryClient-CacheRefreshExecutor-0:33752189> ZWESVUSR DEBUG (o.a.h.headers) http-outgoing-0 << X-Content-Type-Options: nosniff 
@@ -4313,14 +4313,14 @@ ders) http-outgoing-2 << Vary: Access-Control-Request-Method
 2022-08-23 16:38:06.799 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  negotiated protocol: TLSv1.2 
 2022-08-23 16:38:06.799 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory) Secure session established 
 2022-08-23 16:38:06.800 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  negotiated cipher suite: SSL_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-2022-08-23 16:38:06.800 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  peer principal: CN=esaibmvipa1.opr.company.org, OU=zOSMF-Servers, OU=WG8254, O=State Farm Insurance Companies, L=Bloomington, ST=IL, 
+2022-08-23 16:38:06.800 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  peer principal: CN=esaibmvipa1.opr.company.org, OU=zOSMF-Servers, redacted :), 
 2022-08-23 16:38:06.800 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  peer alternative names: Ysf-SUPPzosmf.opr.company.org" 
-2022-08-23 16:38:06.800 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  issuer principal: CN=ZKMANCLSTR.Support.Statefarm.Org 
+2022-08-23 16:38:06.800 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  issuer principal: CN=ZKMANCLSTR.Support.company.Org 
 2022-08-23 16:38:06.801 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  negotiated protocol: TLSv1.2 
 2022-08-23 16:38:06.801 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  negotiated cipher suite: SSL_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
-2022-08-23 16:38:06.802 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  peer principal: CN=esaibmvipa1.opr.company.org, OU=zOSMF-Servers, OU=WG8254, O=State Farm Insurance Companies, L=Bloomington, ST=IL, 
+2022-08-23 16:38:06.802 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  peer principal: CN=esaibmvipa1.opr.company.org, OU=zOSMF-Servers, OU=WG8254, Redacted :) , 
 2022-08-23 16:38:06.802 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  peer alternative names: Ysf-SUPPzosmf.opr.company.org" 
-2022-08-23 16:38:06.802 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  issuer principal: CN=ZKMANCLSTR.Support.Statefarm.Org 
+2022-08-23 16:38:06.802 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.c.s.SSLConnectionSocketFactory)  issuer principal: CN=ZKMANCLSTR.Support.comapny.Org 
 2022-08-23 16:38:06.805 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.i.c.DefaultHttpClientConnectionOperator) Connection established 10.58.253.84:38554<->10.58.254.161:443 
 2022-08-23 16:38:06.805 <ZWEAGW1:DiscoveryClient-0:50529351> ZWESVUSR DEBUG (o.a.h.i.c.DefaultHttpClientConnectionOperator) Connection established 10.58.253.84:38555<->10.58.254.161:443 
 2022-08-23 16:38:06.805 <ZWEAGW1:DiscoveryClient-1:50529351> ZWESVUSR DEBUG (o.a.h.i.c.DefaultManagedHttpClientConnection) http-outgoing-0: set socket timeout to 10000 
@@ -5031,7 +5031,7 @@ instanceId":"esaibmvipa1.opr.company.org:cachingservice:60691","hostName":"esaib
 aibmvipa1.opr.company.org:60691/cachingservice/v2/api-docs"},"appGroupName":"CACHINGSERVICE","homePageUrl":"https://esaibmvipa1.opr.company.org:60691/cachingservice","statusPageUrl":"https://esaibmvipa1.opr.company.org:60691/cachingservice/appli
 ST APIs and offers enterprise cloud-like features such as high-availability, scalability, dynamic API discovery, and documentation.","apiml.service.title":"API Catalog","apiml.apiInfo.0.apiId":"zowe.apiml.apicatalog","apiml.authentication.sso":"true",
 h","secureHealthCheckUrl":"https://esaibmvipa1.opr.company.org:60685/apicatalog/application/health","vipAddress":"apicatalog","secureVipAddress":"apicatalog","isCoordinatingDiscoveryServer":"false","lastUpdatedTimestamp":"1661272664452","lastDirtyTi
-piInfo.0.gatewayUrl":"api/v1","apiml.apiInfo.0.documentationUrl":"https://zowe.github.io/docs-site/","apiml.catalog.tile.id":"apimediationlayer","apiml.routes.api_v1.serviceUrl":"/gateway","apiml.apiInfo.0.swaggerUrl":"https://esaibmvipa1.opr.statefar
+piInfo.0.gatewayUrl":"api/v1","apiml.apiInfo.0.documentationUrl":"https://zowe.github.io/docs-site/","apiml.catalog.tile.id":"apimediationlayer","apiml.routes.api_v1.serviceUrl":"/gateway","apiml.apiInfo.0.swaggerUrl":"https://esaibmvipa1.opr.company
 2022-08-23 16:38:10.665 <ZWEADS1:DiscoveryClient-CacheRefreshExecutor-0:67306364> ZWESVUSR DEBUG (o.a.http.wire)  << ".opr.company.org:zlux:60693","hostName":"esaibmvipa1.opr.company.org","app":"ZLUX","ipAddr":"127.0.0.1","status":"UP","overridden
 2022-08-23 16:38:10.666 <ZWEADS1:DiscoveryClient-CacheRefreshExecutor-0:67306364> ZWESVUSR DEBUG (o.a.http.wire)  << "Y\r"Y\n"" 
 2022-08-23 16:38:10.666 <ZWEADS1:DiscoveryClient-CacheRefreshExecutor-0:67306364> ZWESVUSR DEBUG (o.a.http.wire)  << "2000Y\r"Y\n"" 
@@ -5696,7 +5696,7 @@ fd"Y0xba"Y0x8"Y0x15"mY0x1f"Y0x1e"Y0x97"Y0xa5"eY0x80"5qY0xad"FY0x82"Y0x11"Y0xb9"u
 fY0xe2"Y0xed"oY0xac"Y0x96"Y0x8b"Y0x1d"jJY0xf7"Y0xed"bY0xb4"2rY0xa1"Y0xee"jY0xb5"+Y0x2"'Y0xa2"Y0xcd"Y0x8b"bY0xa6"<Y0xb"2w=Y0x8c"Y0x98"Y0xd5"Y0xb1"*CY0xa2"AY0x91"kY0xb0"Y0xef"Y0xcb"Y0xe7"Y0xcc"Y0xd3"Y0x80"Y0xf1"Y0xbb"Y0xb"Y0x19"Y0xf6"Y0xa9"cY0xd8"UY0xc6
 2022-08-23 16:38:15.874 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << "%Y0xf0"BNP@Y0xee"Y0x19"Y0x8a"Y0x5""Y0x9a"MY0x6"Y0x19"Y0x8a"Y0xb7"GY0x2"b!Y0xea""Y0x9e"BY0xdd"Y0xd8"Y0xb5":Y0xe8"Y0xdb"Y0x95"6Y0x91"Y0xc"hY0xb3"5
 Y0xb"KY0xe7"MY0xca"Y0xeb"Y0xd4"E+Y0x91"Y0xf7"Y0x8e"FKroY0xcd"A"Y0x12"Y0x6"PY0xc7"Y0xb"iY0xe3""8.2Y0xc0"Y0xe2"Y0x4"Y0xe6"Y0xe0".Y0xdb"Y0xe9"Y0xa4"Y0xd8"Y0xc1"Y0x81"Y0xd2"I#Y0x97"NY0xb"Y0xaa"Y0x92"9UjY0x2"gY0x12"dY0x8a"Y0xfa"Y\n"" 
-2022-08-23 16:38:15.874 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << "B:IY0x12"Y0xa0"Y0xa6"7Y0xdf"Y0x99"ªhY0x90"Y0xf4"Y0x18"Y\r"(dY0x87"vY0xd8"Y0xb2"Y0xc3"Y0xa3"Y0xea"Y0xf4"Y0x82"Y0xb2"FY0x93"uY0xae"Y0x81"CY0xe"rhY
+2022-08-23 16:38:15.874 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << "B:IY0x12"Y0xa0"Y0xa6"7Y0xdf"Y0x99"ÂªhY0x90"Y0xf4"Y0x18"Y\r"(dY0x87"vY0xd8"Y0xb2"Y0xc3"Y0xa3"Y0xea"Y0xf4"Y0x82"Y0xb2"FY0x93"uY0xae"Y0x81"CY0xe"rhY
 2022-08-23 16:38:15.875 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << "lV>Y0xe3"@|Y0xff">Y0xd0"Y0xbe"Y0xdb"Y0x 
 a3"=Y0xd8"Y0x8c"Y0xda"Y0xf3"Y0xed"Y3JY0xe6"Y\n"" 
 2022-08-23 16:38:15.875 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << "_}Y0x17"Y0xb5"<SY0xbd",Y0x2"n4Y0x9b"M"Y0xc6""JhY0xb0"Y0xd0"Y0xf7"Y0xbd"Y0x80"Y0x1b"Y0x9b"Y0xae"Y0xd7"Y0xb4"Y0x89"U#fT+Y0x83"Y0xb8"FY0xa5"Y0xb2"
@@ -5704,7 +5704,7 @@ a3"=Y0xd8"Y0x8c"Y0xda"Y0xf3"Y0xed"Y3JY0xe6"Y\n""
 2022-08-23 16:38:15.876 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << "kY0xae"W*Y0xdd"Y0x84"Y0xa9"Y0xfe"Y0xcc"Y0xfa"Y0xa8"Y0x17"Y0x9f"Y0xa4"Y0x13"ZY0x84"NY0xe8"Y0xa0"Y0xae"Y0xa9"j{Y0xf2"rfqY0x18"Y0xce",Y0xee"Y0x92"3
 2022-08-23 16:38:15.876 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << "Y0xff"j=Y0x86"Y0xfd"9WY0x4"33Y0xa9"Y0xe7"Y0xb"9=Y0x9f"/Y0xe8"Y0xb9"Y0x99"Y0xe9"Y0x11"Y0xfb"Y0x8d"*Y0x95"Y0x2"Y0x95"Y0x2"Y0xed"Y\n"" 
 2022-08-23 16:38:15.877 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.http.wire) http-outgoing-1 << ".Y0x8d"Y0x92"}Y0xca"Y0xd 
-2"Y0xee"LY0xda"UY0x8d"vIY0xbb"3Y0xa7":Y0xed"ªY0xd8"iY0x17",Y0x1"Y0xdc"OuY0xda"Y0xbd"Y0xb0"Y0xd0"Y0xae"ZY0x12"Y0xa0"Y0xdd"Y0x13"Y0x95"vY0x8d"Y0x1e">Y0x88"Y0xa9"Y0xd6"Y0xc0"Y0xfe"PTY0x9b"2Y0xbf"Y0xf8"Y0xa4"Y0xd7"Y0x99"!Y0xe8"5_LY0xa1"Y0xd7"Y0xf3"Y0xc4
+2"Y0xee"LY0xda"UY0x8d"vIY0xbb"3Y0xa7":Y0xed"ÂªY0xd8"iY0x17",Y0x1"Y0xdc"OuY0xda"Y0xbd"Y0xb0"Y0xd0"Y0xae"ZY0x12"Y0xa0"Y0xdd"Y0x13"Y0x95"vY0x8d"Y0x1e">Y0x88"Y0xa9"Y0xd6"Y0xc0"Y0xfe"PTY0x9b"2Y0xbf"Y0xf8"Y0xa4"Y0xd7"Y0x99"!Y0xe8"5_LY0xa1"Y0xd7"Y0xf3"Y0xc4
 2022-08-23 16:38:15.877 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.h.headers) http-outgoing-1 << HTTP/1.1 200 
 2022-08-23 16:38:15.877 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.h.headers) http-outgoing-1 << Content-Encoding: gzip 
 2022-08-23 16:38:15.877 <ZWEAAC1:scheduling-1:33752189> ZWESVUSR DEBUG (o.a.h.headers) http-outgoing-1 << X-Content-Type-Options: nosniff 
